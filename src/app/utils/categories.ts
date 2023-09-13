@@ -5,11 +5,6 @@ const categories = [
     route: 'academic',
   },
   {
-    name: 'Musicais',
-    icon: '/musical.png',
-    route: 'music',
-  },
-  {
     name: 'Animais',
     icon: '/animais.png',
     route: 'animals',
@@ -20,9 +15,9 @@ const categories = [
     route: 'cultural',
   },
   {
-    name: 'Feiras',
-    icon: '/feiras.png',
-    route: 'fairs',
+    name: 'Musicais',
+    icon: '/musical.png',
+    route: 'music',
   },
   {
     name: 'Festival',
@@ -34,6 +29,11 @@ const categories = [
     icon: '/gastronomicos.png',
     route: 'gastronomic',
   },
+   {
+    name: 'Feiras',
+    icon: '/feiras.png',
+    route: 'fairs',
+  },
 ]
 
-export {categories}
+export { categories }
