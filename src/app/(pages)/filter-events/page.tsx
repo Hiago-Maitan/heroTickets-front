@@ -38,7 +38,7 @@ export default function FilterEvents() {
               <select
                 name=""
                 id=""
-                className="w-full px-6 py-[5px] mt-2 bg-white rounded-lg border border-teal-400">
+                className="w-full h-[38px] px-6 py-[5px] mt-2 bg-white rounded-lg border border-teal-400">
                 <option value="">Selecione</option>
                 {categories.map((category) => (
                   <option value={category.name}>{category.name}</option>
